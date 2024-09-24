@@ -17936,21 +17936,38 @@ Description:  This package contains "ldbus": LUA bindings to interact with the D
  See https://github.com/daurnimator/ldbus
  for details.
 
-Package: ldd
-Version: 2.39-4
-Source: feeds/base/libs/toolchain
-SourceName: ldd
-License: GPL-3.0-with-GCC-exception
+Package: ldconfig
+Version: 2.40-1
+Depends: libc
+Source: feeds/base/libs/glibc
+SourceName: ldconfig
 Section: utils
-SourceDateEpoch: 1727132020
+SourceDateEpoch: 1727155825
+CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
-Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 130
-Filename: ldd_2.39-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 888
-SHA256sum: 4f4ba36309d4cf45fdc246f6ba32b067e51bc5369a7db5f0f4e1cede74e49a65
+Installed-Size: 367704
+Filename: ldconfig_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 367106
+SHA256sum: 32fbc0da58d2325a732f6e041dd3d2e68600b9cf85f237791ad05e4d640eecf4
+Description:  Shared library path configuration
+
+Package: ldd
+Version: 2.40-1
+Depends: libc
+Source: feeds/base/libs/glibc
+SourceName: ldd
+Section: utils
+SourceDateEpoch: 1727155825
+CPE-ID: cpe:/a:gnu:glibc
+Status: unknown hold not-installed
+Essential: yes
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2485
+Filename: ldd_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3232
+SHA256sum: 34fe0c7f03af4a79a788c3b5ebd0f9ad658943f0d6f5d2b900241223a763baf4
 Description:  LDD trace utility
 
 Package: libacl
@@ -18026,7 +18043,7 @@ SHA256sum: dd00bf671f6c29a766cb91473fb2f5be12acef2a063a0b2cff72eaab38b02e07
 Description:  Multi-format archive and compression library
 
 Package: libatomic1
-Version: 13.2.0-4
+Version: 14.2.0-4
 Depends: libgcc1
 Provides: libatomic
 Source: feeds/base/libs/toolchain
@@ -18040,9 +18057,9 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 7153
-Filename: libatomic1_13.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7928
-SHA256sum: 981e6c280a2e30ba189e73822e2915b6ec2587ede38e9616b9f88ab834805573
+Filename: libatomic1_14.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7934
+SHA256sum: c30c5d723356b390cdc76049c2d34dd9ff2ddd9c97cfe07203938734a804c7d6
 Description:  Atomic support library
 
 Package: libattr
@@ -18074,12 +18091,14 @@ LicenseFiles: COPYING
 Section: opt
 SourceDateEpoch: 1727132020
 CPE-ID: cpe:/a:linux_audit_project:linux_audit
+Status: unknown hold not-installed
+Essential: yes
 Maintainer: Thomas Petazzoni <thomas.petazzoni@bootlin.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40560
+Installed-Size: 40252
 Filename: libaudit_2.8.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41431
-SHA256sum: be05116093c00cacad018a3f46e64630d1fa4d30b3a575bafbc54a524c489d0d
+Size: 41170
+SHA256sum: d8c5e684e80e84520f1d54bb6e6d409ce376fa5d70d78213ade1e577cb9346be
 Description:  This package contains the audit shared library.
 
 Package: libavahi-client
@@ -18757,7 +18776,7 @@ Description:  fuse3 (Filesystem in UserSpacE)
  - libfuse3
 
 Package: libgcc1
-Version: 13.2.0-4
+Version: 14.2.0-4
 Provides: libgcc
 Source: feeds/base/libs/toolchain
 SourceName: libgcc
@@ -18770,9 +18789,9 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 42777
-Filename: libgcc1_13.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43157
-SHA256sum: babb482415047fd00ed3f1ccc1c723478ec8e0cbd5af9856569562864b93fc79
+Filename: libgcc1_14.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43156
+SHA256sum: 83b2791569565ea5949846fba7f3a8aaa7c6c334d19356adb52dd1f6c7299a1a
 Description:  GCC support library
 
 Package: libgcrypt
@@ -18882,7 +18901,7 @@ Description:  This project (pronounced gen'-see-oh) is used to abstract stream I
  This package contains the C++ runtime files.
 
 Package: libgfortran
-Version: 13.2.0-4
+Version: 14.2.0-4
 Source: feeds/base/libs/toolchain
 SourceName: libgfortran
 License: GPL-3.0-with-GCC-exception
@@ -18893,9 +18912,9 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 710659
-Filename: libgfortran_13.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 709722
-SHA256sum: bd6faa667b5ad3daa0810d2cd121b1f3e944cf42b8b71b2f50821b8fa8cf2be1
+Filename: libgfortran_14.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 709725
+SHA256sum: 4babb9bf045e07953d236badfbaae21278f1f456527a6938483e7de74261c03b
 Description:  GFortran support library
 
 Package: libgmp10
@@ -20111,21 +20130,20 @@ Description:  Runtime library to use Google Protocol Buffers from C applications
  internal RPC protocols and file formats.
 
 Package: libpthread
-Version: 2.39-4
-Depends: libgcc1
-Source: feeds/base/libs/toolchain
+Version: 2.40-1
+Depends: libc
+Source: feeds/base/libs/glibc
 SourceName: libpthread
-License: GPL-3.0-with-GCC-exception
 Section: libs
-SourceDateEpoch: 1727132020
+SourceDateEpoch: 1727155825
+CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
-Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1699
-Filename: libpthread_2.39-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2501
-SHA256sum: f5a5f73a3bdc1439b154fe9dd27d41d49e3da97695cfab21455af6d3bf1d35a3
+Installed-Size: 1720
+Filename: libpthread_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2470
+SHA256sum: 8d7b877b866e22f80910ac2c4220030d96b5572d3647a40263c2a49bc55d8be7
 Description:  POSIX thread library
 
 Package: libqmi
@@ -20189,21 +20207,20 @@ Description:  The Readline library provides a set of functions for use by applic
  history expansion on previous commands.
 
 Package: librt
-Version: 2.39-4
+Version: 2.40-1
 Depends: libpthread
-Source: feeds/base/libs/toolchain
+Source: feeds/base/libs/glibc
 SourceName: librt
-License: GPL-3.0-with-GCC-exception
 Section: libs
-SourceDateEpoch: 1727132020
+SourceDateEpoch: 1727155825
+CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
-Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1996
-Filename: librt_2.39-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2804
-SHA256sum: 4868e6e40d60cd9068a34baaae479a4bf8758e1022e1d84f144a4e8c0bda2ad0
+Installed-Size: 2033
+Filename: librt_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2813
+SHA256sum: b2a952ce27cc53f467223924c2128104f1f5347ff063a35115ed8474739a0422
 Description:  POSIX.1b RealTime extension library
 
 Package: libruby3.2
@@ -20264,7 +20281,7 @@ Description:  This package contains the seccomp library.
 
 Package: libselinux
 Version: 3.5-1
-Depends: libc, libxcrypt2, libsepol, libpcre2
+Depends: libsepol, libpcre2
 Source: feeds/base/libs/libselinux
 SourceName: libselinux
 License: libselinux-1.0
@@ -20272,12 +20289,14 @@ LicenseFiles: LICENSE
 Section: libs
 SourceDateEpoch: 1727132020
 CPE-ID: cpe:/a:selinuxproject:libselinux
+Status: unknown hold not-installed
+Essential: yes
 Maintainer: Thomas Petazzoni <thomas.petazzoni@bootlin.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 65212
+Installed-Size: 64048
 Filename: libselinux_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 66007
-SHA256sum: c7fb745c995fa32d30f7cf7fa7676196b6e133edf2e4fa9cc974d75325e0643f
+Size: 64920
+SHA256sum: e39ad58f76e3893d7534ea56264808ab16bdd58c1e3536f80c21c6f7171d8d05
 Description:  libselinux is the runtime SELinux library that provides
  interfaces (e.g. library functions for the SELinux kernel
  APIs like getcon(), other support functions like
@@ -20488,7 +20507,7 @@ SHA256sum: 326edf05cc6b4e1f83261ad64225961ed883fd7ec5526283e3e3f14aea7bf1a7
 Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
 
 Package: libstdcpp6
-Version: 13.2.0-4
+Version: 14.2.0-4
 Provides: libstdcpp
 Source: feeds/base/libs/toolchain
 SourceName: libstdcpp
@@ -20501,9 +20520,9 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 756195
-Filename: libstdcpp6_13.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 753487
-SHA256sum: 30fcc8ab3d66ea0b4ed0add9c3d1c143808ccbc1ae771a72a72a2298d382d503
+Filename: libstdcpp6_14.2.0-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 753486
+SHA256sum: f2dc88612a03693db6bc0daa3bfd38268d4344c57823c6832be7551b38a7b52c
 Description:  GNU Standard C++ Library v3
 
 Package: libsysfs2
