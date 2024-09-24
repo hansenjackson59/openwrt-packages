@@ -13546,10 +13546,10 @@ CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 367704
+Installed-Size: 367636
 Filename: ldconfig_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 367106
-SHA256sum: 32fbc0da58d2325a732f6e041dd3d2e68600b9cf85f237791ad05e4d640eecf4
+Size: 367255
+SHA256sum: 00a1255fae3fc92537d510cf3feb870ea6e37aa50fbf0c82323334059ddbf729
 Description:  Shared library path configuration
 
 Package: ldd
@@ -13560,10 +13560,10 @@ CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2485
+Installed-Size: 2487
 Filename: ldd_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 3232
-SHA256sum: 34fe0c7f03af4a79a788c3b5ebd0f9ad658943f0d6f5d2b900241223a763baf4
+SHA256sum: 43b165c559e4a212646bcb3b4bc8bd0e17adf717b4b2aaf70f8b110f22dc1121
 Description:  LDD trace utility
 
 Package: libacl
@@ -15252,10 +15252,10 @@ CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1720
+Installed-Size: 1771
 Filename: libpthread_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2470
-SHA256sum: 8d7b877b866e22f80910ac2c4220030d96b5572d3647a40263c2a49bc55d8be7
+Size: 2529
+SHA256sum: 777b6b43bd7c781c79cb414968822b5b7d05eb3e9cefac1e313b42e8a68f1ab2
 Description:  POSIX thread library
 
 Package: libqmi
@@ -15312,10 +15312,10 @@ CPE-ID: cpe:/a:gnu:glibc
 Status: unknown hold not-installed
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2033
+Installed-Size: 2092
 Filename: librt_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2813
-SHA256sum: b2a952ce27cc53f467223924c2128104f1f5347ff063a35115ed8474739a0422
+Size: 2864
+SHA256sum: 25b9c7dcb0e8876ee474e633210e90da3dc75ab8252feaa8d0b384b28d093215
 Description:  POSIX.1b RealTime extension library
 
 Package: libruby3.2
