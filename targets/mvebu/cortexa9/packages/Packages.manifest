@@ -767,10 +767,10 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 259939
+Installed-Size: 259589
 Filename: busybox-selinux_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 260079
-SHA256sum: 784e5f359c0a024eb75c9e354f9803d4496b78d6e88963d08e3a1145fd10e933
+Size: 259638
+SHA256sum: 0cd84bebd8df307d71cd9fef684996ecf45a615e11870d84af5fe853e707df4f
 Description:  Core utilities for embedded Linux with SELinux support
 
 Package: busybox
@@ -788,10 +788,10 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 250792
+Installed-Size: 249849
 Filename: busybox_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 251103
-SHA256sum: 92b44142bdda98adf763d77320548c620bd35a461337a4aee2bd1b74580ffaef
+Size: 250143
+SHA256sum: 1f40f7bfa122281914f98a24754eee950795a85bea8935d21bd3ffc7a4c84014
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -26566,10 +26566,10 @@ Section: base
 SourceDateEpoch: 1727132020
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 16632
+Installed-Size: 16473
 Filename: procd-seccomp_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 17178
-SHA256sum: 0e3dce485ed6668b51bbe9552f01ff163cb8deb93ba32f556eaa5312d62c2bf3
+Size: 16926
+SHA256sum: dda97eb2cc68078dc4b3d0d6eda11e9cb66e2cd1e8f22c8c2e2ebc94ed87c560
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-selinux
@@ -26584,10 +26584,10 @@ Require-User: :dialout=20 :audio=29
 SourceDateEpoch: 1727132020
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 55672
+Installed-Size: 54585
 Filename: procd-selinux_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 56250
-SHA256sum: 36e74c61756b3997e70532c540f3a8b22822095f949cb0b42ea6ccda531fe9d9
+Size: 55116
+SHA256sum: b5324a642e2b851f0356f98fb691b658f398d3bd60fee73fbd99f462eece2f23
 Description:  OpenWrt system process manager with SELinux support
 
 Package: procd-ujail
@@ -26600,29 +26600,11 @@ Section: base
 SourceDateEpoch: 1727132020
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 43383
+Installed-Size: 43064
 Filename: procd-ujail_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43856
-SHA256sum: 0ee30a7f4918a38822f474bd5e1dac5fc0e32060b20202e1b3a94a7140826f64
+Size: 43615
+SHA256sum: 82d35b94836f4f3cded3df0bec3ab4afbfa0e1f2c9c9a2059d2fcfa260c7416f
 Description:  OpenWrt process jail helper
-
-Package: procd
-Version: 2023-06-25-2db83655-2
-Depends: libc, libxcrypt2, ubusd, ubus, libjson-script20230523, ubox, libubox20230523, libubus20230605, libblobmsg-json20230523, libjson-c5, jshn
-Conflicts: procd-selinux
-Source: feeds/base/system/procd
-SourceName: procd
-License: GPL-2.0
-Section: base
-Require-User: :dialout=20 :audio=29
-SourceDateEpoch: 1727132020
-Maintainer: John Crispin <john@phrozen.org>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 55221
-Filename: procd_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 55587
-SHA256sum: bfdbf5888cb54129c49a00788ca253f83264cbfedef1437146711854b6e69fb7
-Description:  OpenWrt system process manager
 
 Package: proto-bonding
 Version: 2021-04-09-3
